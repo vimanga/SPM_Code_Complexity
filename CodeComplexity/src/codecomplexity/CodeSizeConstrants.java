@@ -2,7 +2,6 @@ package codecomplexity;
 /**/
 public class CodeSizeConstrants {
  
-	/*this is an array of key words used to initialize the keyWordSet HashSet */
 	public static final String KEY_WORD_LIST[][]={ 
 			{"abstract","assert","boolean",
 			"break","byte", "case",	"catch","char","class","const",
@@ -32,18 +31,9 @@ public class CodeSizeConstrants {
 			"delete","mutable","protected","true","try","typeid","typename",
 			"using","virtual","wchar_t"}};
 	
-	/*
-	 * these variables hold the regex statements to find if an character is a 
-	 * starting character of a variable name. index 0 is for JAVA 
-	 * and index 1 is for C++/C 
-	 *  */
 	public static final String[] VARIABLE_START_WITH = {"[A-Za-z_$]","[A-Za-z_]","[A-Za-z_]"};
 	
-	/*
-	 * these variables hold the regex statements to find if an character is a 
-	 * character inside a variable name. index 0 is for JAVA 
-	 * and index 1 is for C++/C 
-	 *  */
+	
 	public static final String[] VARIABLE_CHAR = {"[A-Za-z_$0-9]","[A-Za-z_0-9]","[A-Za-z_0-9]"};
 	
 
